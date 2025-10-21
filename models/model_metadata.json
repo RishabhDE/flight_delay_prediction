@@ -1,0 +1,35 @@
+{
+  "model_name": "XGBoost",
+  "training_date": "2025-10-21T05:39:33.790494",
+  "validation_metrics": {
+    "accuracy": 0.6656605844423104,
+    "precision": 0.26581774771189814,
+    "recall": 0.5301587301587302,
+    "f1": 0.35409488470712963,
+    "roc_auc": 0.6512973011397295
+  },
+  "test_metrics": {
+    "accuracy": 0.6658913668080448,
+    "precision": 0.2681871804954778,
+    "recall": 0.5399841646872525,
+    "f1": 0.3583815028901734,
+    "roc_auc": 0.6629389774725258
+  },
+  "feature_columns": [
+    "airline",
+    "origin",
+    "destination",
+    "distance",
+    "day_of_week",
+    "month",
+    "departure_hour",
+    "temperature",
+    "wind_speed",
+    "precipitation",
+    "visibility",
+    "snow"
+  ],
+  "training_samples": 34125,
+  "validation_samples": 7289,
+  "test_samples": 7309
+}

@@ -1,0 +1,29 @@
+{
+  "region": "us-east-1",
+  "s3_bucket": "sagemaker-us-east-1-730335352303",
+  "prefix": "flight-delay-prediction",
+  "role": "arn:aws:iam::730335352303:role/LabRole",
+  "feature_group_name": "flight-delay-features-2025-10-21-03-41-14",
+  "dataset_size": 50000,
+  "delay_rate": 0.22478,
+  "endpoint_name": "flight-delay-predictor-2025-10-21-06-04-56",
+  "model_name": "XGBoost",
+  "model_s3_path": "s3://sagemaker-us-east-1-730335352303/flight-delay-prediction/deployment/model.tar.gz",
+  "data_capture_s3_uri": "s3://sagemaker-us-east-1-730335352303/flight-delay-prediction/data-capture",
+  "test_metrics": {
+    "accuracy": 0.6658913668080448,
+    "precision": 0.2681871804954778,
+    "recall": 0.5399841646872525,
+    "f1": 0.3583815028901734,
+    "roc_auc": 0.6629389774725258
+  },
+  "monitoring_schedule_name": "flight-delay-monitor-2025-10-21-06-25-01",
+  "monitoring_output_uri": "s3://sagemaker-us-east-1-730335352303/flight-delay-prediction/monitoring/reports",
+  "baseline_statistics_uri": "s3://sagemaker-us-east-1-730335352303/flight-delay-prediction/monitoring/baseline-results/statistics.json",
+  "baseline_constraints_uri": "s3://sagemaker-us-east-1-730335352303/flight-delay-prediction/monitoring/baseline-results/constraints.json",
+  "cloudwatch_dashboard": "FlightDelayPrediction-ModelMonitoring",
+  "pipeline_name": "FlightDelayPredictionPipeline",
+  "pipeline_arn": 123456789,
+  "latest_execution_arn": "arn:aws:sagemaker:us-east-1:730335352303:pipeline/FlightDelayPredictionPipeline/execution/38agnaulr6e4",
+  "model_package_group_name": "FlightDelayPredictionPackageGroup"
+}

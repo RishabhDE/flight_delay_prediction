@@ -1,0 +1,106 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*-checkpoint.ipynb
+
+# Virtual Environment
+venv/
+ENV/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# AWS / SageMaker
+# Keep model.tar.gz if small
+# *.tar.gz
+# deployment_package/
+
+# Data files (large)
+# Exclude large CSV files, keep small ones for demo
+data/flight_data_complete.csv
+data/weather_data.csv
+baseline_data.csv
+batch_data/*.csv
+!data/README.md
+!data/sample_*.csv
+
+# Model artifacts
+models/*.pkl
+models/*.joblib
+*.h5
+*.pt
+*.pth
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Output files
+batch_output/
+pipeline_results/
+
+# Config (contains sensitive info)
+# Uncomment if config.json has credentials
+# config.json
+
+# Monitoring
+monitoring/*.json
+
+# Images (optional - comment out if you want to track)
+# Keep important visualization images
+!*_results.png
+!pipeline_dag.png
+!model_comparison.png
+!confusion_matrix.png
+# *.png
+# *.jpg
+# *.jpeg
+
+# Large archives
+*.zip
+*.7z
+
+# Large dataset folders (download from Mendeley separately)
+Dataset for Airline Departure Delay Prediction/
+
+# Large data files
+data/flight_data_complete.csv
+data/weather_data.csv
+
+# Keep sample data for demo
+!data/sample_*.csv
